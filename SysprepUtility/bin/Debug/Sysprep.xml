@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<unattend xmlns="urn:schemas-microsoft-com:unattend">
+  <settings pass="oobeSystem">
+    <component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <InputLocale>en-us;en-US</InputLocale>
+      <SystemLocale>en-us</SystemLocale>
+      <UILanguage>en-us</UILanguage>
+      <UILanguageFallback>en-us</UILanguageFallback>
+      <UserLocale>en-us</UserLocale>
+    </component>
+    <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <AutoLogon>
+        <Password>
+          <Value>V3lzZUAxMjM=</Value>
+          <PlainText>false</PlainText>
+        </Password>
+        <Enabled>true</Enabled>
+        <Username>Gokul_Kadia</Username>
+      </AutoLogon>
+      <OEMInformation>
+        <Manufacturer>Dell Inc.</Manufacturer>
+        <Model>Dell Optiplex 3000 series ThinClient</Model>
+      </OEMInformation>
+      <OOBE>
+        <HideEULAPage>true</HideEULAPage>
+        <HideLocalAccountScreen>true</HideLocalAccountScreen>
+        <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
+        <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+        <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+        <ProtectYourPC>3</ProtectYourPC>
+      </OOBE>
+      <UserAccounts>
+        <LocalAccounts>
+          <LocalAccount wcm:action="add">
+            <Password>
+              <Value>V3lzZUAxMjM=</Value>
+              <PlainText>false</PlainText>
+            </Password>
+            <Description>Gokul_Kadia</Description>
+            <DisplayName>Gokul_Kadia</DisplayName>
+            <Group>Administrators</Group>
+            <Name>Gokul_Kadia</Name>
+          </LocalAccount>
+        </LocalAccounts>
+      </UserAccounts>
+      <WindowsFeatures>
+        <ShowInternetExplorer>true</ShowInternetExplorer>
+        <ShowMediaCenter>false</ShowMediaCenter>
+        <ShowWindowsMediaPlayer>true</ShowWindowsMediaPlayer>
+      </WindowsFeatures>
+      <DisableAutoDaylightTimeSet>false</DisableAutoDaylightTimeSet>
+      <BluetoothTaskbarIconEnabled>true</BluetoothTaskbarIconEnabled>
+      <DoNotCleanTaskBar>true</DoNotCleanTaskBar>
+      <EnableStartMenu>true</EnableStartMenu>
+      <RegisteredOrganization>Dell Inc.</RegisteredOrganization>
+      <RegisteredOwner>Dell Inc.</RegisteredOwner>
+      <ShowPowerButtonOnStartScreen>true</ShowPowerButtonOnStartScreen>
+      <SignInMode>1</SignInMode>
+      <TimeZone>Canada UST</TimeZone>
+    </component>
+  </settings>
+  <cpi:offlineImage cpi:source="wim://w10cgp4m13/backup/d-drive/troy-jsl-wie10_rs9/wes_apps/bco_bugs_fixes/binaries-packages/custom_sysprep/iotentltsc10.0.19044.1.eng.wim#Windows 10 Enterprise LTSC 2021" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+</unattend>

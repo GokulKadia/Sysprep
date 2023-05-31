@@ -1,0 +1,17 @@
+{	
+	"sysprepSettings": {
+		"version": "0.0.1",
+		"sequence": 1677603880981,
+		"parameters": {
+			"UserName": {
+				"value": "Gokul_Kadia"
+			},
+			"Password": {
+				"value": "Wyse@123"
+			},
+			"TimeZone": {
+				"value": "Canada UST"
+			}
+		}
+	}
+}
